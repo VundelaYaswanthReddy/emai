@@ -10,7 +10,7 @@ mongoose.connect('mongodb+srv://m001-student:m001-mongodb-basics@sandbox.nucrbbe
 .then(()=> console.log("Connectwd to db"))
 .catch((err)=> console.log('Unable to connect to db'))
 
-names=[{name:"yaswanth"}]
+names=[{name:"surya"}]
 
 app.post('/names',(req,res)=>{
 
